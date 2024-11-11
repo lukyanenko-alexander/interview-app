@@ -1,0 +1,15 @@
+POST http://127.0.0.1:8000/orders/
+Content-Type: application/json
+
+{
+  "services": [
+    {
+      "service": 1,
+      "quantity": 101
+    }
+  ],
+  "client": 1,
+  "address": "ул Пушкина 52"
+}
+
+###
