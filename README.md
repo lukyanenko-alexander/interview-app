@@ -1,3 +1,13 @@
+```shell
+from services.models import Service
+from clients.models import Client
+
+Service(name="Burger", price=100).save()
+Client(name="Viktor").save()
+```
+
+
+
 ## 1.
 * написать сериалайзер, который будет валидировать следующие поля:
   * client - проверять что переданный клиент существует в бд
